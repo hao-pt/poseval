@@ -69,6 +69,13 @@ $ cd poseval/matlab
 $ matlab -nodisplay -nodesktop -r "mat2json('/path/to/dir/with/mat/files/'); quit"
 ```
 
+Run `*.m` file with Octave:
+```bash
+cd poseval/matlab
+addpath("path/to/matlab/external/jsonlab")
+mat2json('/path/to/dir/with/mat/files/')
+```
+
 ## Metrics
 
 This code allows to perform evaluation of per-frame multi-person pose estimation and evaluation of video-based multi-person pose tracking.
